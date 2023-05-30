@@ -1,0 +1,131 @@
+{
+  "logs": [
+    {
+      "message": " ",
+      "attention": false,
+      "tech": "Henry Scallion",
+      "date": "2023-02-14T07:15:19.224Z",
+      "id": 1
+    },
+    {
+      "message": " ",
+      "attention": false,
+      "tech": "Csaba Kötcsei",
+      "date": "2023-02-14T07:28:46.843Z",
+      "id": 3
+    },
+    {
+      "message": " ",
+      "attention": false,
+      "tech": "Zoltán Hullai",
+      "date": "2023-02-14T07:39:14.572Z",
+      "id": 4
+    },
+    {
+      "message": " ",
+      "attention": false,
+      "tech": "Eszter Nagy",
+      "date": "2023-02-14T07:43:13.909Z",
+      "id": 6
+    },
+    {
+      "message": " ",
+      "attention": false,
+      "tech": "Jácinta Papp",
+      "date": "2023-05-30T05:17:00.721Z",
+      "id": 7
+    }
+  ],
+  "techs": [
+    {
+      "firstName": "Szilveszter",
+      "lastName": "Spáth",
+      "id": 4
+    },
+    {
+      "firstName": "Beáta",
+      "lastName": "Bincze",
+      "id": 5
+    },
+    {
+      "firstName": "Jácinta",
+      "lastName": "Papp",
+      "id": 6
+    },
+    {
+      "firstName": "Zsolt",
+      "lastName": "Plázár",
+      "id": 7
+    },
+    {
+      "firstName": "Eszter",
+      "lastName": "Nagy",
+      "id": 8
+    },
+    {
+      "firstName": "Péter",
+      "lastName": "Temesváry",
+      "id": 9
+    },
+    {
+      "firstName": "Bence",
+      "lastName": "Ács",
+      "id": 10
+    },
+    {
+      "firstName": "Don",
+      "lastName": "LaRue",
+      "id": 11
+    },
+    {
+      "firstName": "Csaba",
+      "lastName": "Kötcsei",
+      "id": 12
+    },
+    {
+      "firstName": "Bencze",
+      "lastName": "Junior",
+      "id": 13
+    },
+    {
+      "firstName": "Bence",
+      "lastName": "N",
+      "id": 14
+    },
+    {
+      "firstName": "Tamás",
+      "lastName": "Molnár",
+      "id": 15
+    },
+    {
+      "firstName": "Júlia",
+      "lastName": "Andorka",
+      "id": 16
+    },
+    {
+      "firstName": "Szilvia",
+      "lastName": "Spáthné Sajben",
+      "id": 17
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Scallion",
+      "id": 18
+    },
+    {
+      "firstName": "Zoltán",
+      "lastName": "Hullai",
+      "id": 19
+    },
+    {
+      "firstName": "Gábor",
+      "lastName": "Fekete",
+      "id": 20
+    },
+    {
+      "firstName": "Györgyi ",
+      "lastName": "Stenger",
+      "id": 21
+    }
+  ]
+}
