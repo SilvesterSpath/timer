@@ -3,37 +3,23 @@
     {
       "message": " ",
       "attention": false,
-      "tech": "Henry Scallion",
-      "date": "2023-02-14T07:15:19.224Z",
+      "tech": "Eszter Tóth",
+      "date": "2024-02-20T04:55:55.494Z",
       "id": 1
     },
     {
       "message": " ",
       "attention": false,
+      "tech": "Zsuzsanna Corridori",
+      "date": "2024-02-20T04:56:11.184Z",
+      "id": 2
+    },
+    {
+      "message": " ",
+      "attention": false,
       "tech": "Csaba Kötcsei",
-      "date": "2023-02-14T07:28:46.843Z",
+      "date": "2024-02-20T04:56:28.522Z",
       "id": 3
-    },
-    {
-      "message": " ",
-      "attention": false,
-      "tech": "Zoltán Hullai",
-      "date": "2023-02-14T07:39:14.572Z",
-      "id": 4
-    },
-    {
-      "message": " ",
-      "attention": false,
-      "tech": "Eszter Nagy",
-      "date": "2023-02-14T07:43:13.909Z",
-      "id": 6
-    },
-    {
-      "message": " ",
-      "attention": false,
-      "tech": "Jácinta Papp",
-      "date": "2023-05-30T05:17:00.721Z",
-      "id": 7
     }
   ],
   "techs": [
@@ -126,6 +112,76 @@
       "firstName": "Györgyi ",
       "lastName": "Stenger",
       "id": 21
+    },
+    {
+      "firstName": "Péter",
+      "lastName": "Munkácsi",
+      "id": 22
+    },
+    {
+      "firstName": "Zsuzsanna",
+      "lastName": "Corridori",
+      "id": 23
+    },
+    {
+      "firstName": "Dorka",
+      "lastName": "Vannai",
+      "id": 24
+    },
+    {
+      "firstName": "Réka",
+      "lastName": " ",
+      "id": 25
+    },
+    {
+      "firstName": "Joanna",
+      "lastName": " ",
+      "id": 26
+    },
+    {
+      "firstName": "Zsolt",
+      "lastName": "  ",
+      "id": 29
+    },
+    {
+      "firstName": "Zsolt",
+      "lastName": "_",
+      "id": 30
+    },
+    {
+      "firstName": "Bettina",
+      "lastName": " ",
+      "id": 31
+    },
+    {
+      "firstName": "Jackie",
+      "lastName": "Das",
+      "id": 32
+    },
+    {
+      "firstName": "Gergo",
+      "lastName": "Sloboda",
+      "id": 33
+    },
+    {
+      "firstName": "Gábor",
+      "lastName": " ",
+      "id": 34
+    },
+    {
+      "firstName": "Eszter",
+      "lastName": " ",
+      "id": 35
+    },
+    {
+      "firstName": "Steven",
+      "lastName": " ",
+      "id": 36
+    },
+    {
+      "firstName": "Eszter",
+      "lastName": "Tóth",
+      "id": 37
     }
   ]
 }

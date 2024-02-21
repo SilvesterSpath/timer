@@ -21,6 +21,9 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
         <h4 className='center' style={{ fontWeight: 'bold' }}>
           Toastmasters - Timer
         </h4>
+        <p style={{ margin: 'auto', maxWidth: '180px' }}>
+          created by <span style={{ fontWeight: 'bold' }}>SilvesterSpath</span>
+        </p>
       </li>
       {!loading && logs.length === 0 ? (
         <p className='center'>No logs to show...</p>
