@@ -1,17 +1,18 @@
 FROM node:16.14.0-alpine
 
-WORKDIR /usr/src/app
+# Create app directory with write permissions 
+RUN mkdir -p /app && chown -R node /app
+WORKDIR /app
 
-COPY package*.json ./
+# Copy source code
+COPY --chown=node package*.json ./
+COPY --chown=node . .
 
-RUN npm install
-
-COPY . .
-
-RUN chown -R 1000:1000 /usr/src/app
 USER node
 
-EXPOSE 3000
-EXPOSE 5000
+RUN npm install 
 
-CMD [ "npm", "run", "dev" ]
+EXPOSE 3000 5000
+
+# Run server
+CMD ["npm", "run", "dev"]
