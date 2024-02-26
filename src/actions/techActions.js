@@ -11,7 +11,7 @@ export const getTechs = () => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch('http://localhost:5000/techs');
+    const res = await fetch('https://toastmaster3-v1-0.onrender.com/techs');
     const data = await res.json();
 
     dispatch({
@@ -31,7 +31,7 @@ export const addTech = (tech) => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch('http://localhost:5000/techs', {
+    const res = await fetch('https://toastmaster3-v1-0.onrender.com/techs', {
       method: 'POST',
       body: JSON.stringify(tech),
       headers: {
@@ -56,7 +56,7 @@ export const deleteTech = (id) => async (dispatch) => {
   try {
     setLoading();
 
-    await fetch(`http://localhost:5000/techs/${id}`, {
+    await fetch(`https://toastmaster3-v1-0.onrender.com/techs/${id}`, {
       method: 'DELETE',
     });
 
