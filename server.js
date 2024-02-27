@@ -1,5 +1,9 @@
 const json = require('json-server');
 const cors = require('cors');
+const dotenv = require('dotenv');
+const path = require('path');
+
+dotenv.config();
 
 const server = json.create();
 
@@ -19,6 +23,8 @@ server.use(cors(corsOptions));
 server.use(middleware);
 server.use(router); // <-- Mount router
 
-server.listen(5000, () => {
-  console.log('JSON Server is running on port 5000');
+const PORT = process.env.JSON_PORT || 5001;
+
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`);
 });

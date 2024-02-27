@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "materialize-css": "^1.0.0",
     "moment": "^2.24.0",
     "react": "^16.8.6",
@@ -16,7 +17,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --port=3000",
     "json-server": "json-server --watch db.json --port 5000 --cors",
     "server": "node server.js",
     "dev": "concurrently \"npm start\" \"npm run server\"",
