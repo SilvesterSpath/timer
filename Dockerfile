@@ -21,6 +21,7 @@ RUN npm install -g serve
 
 # Expose port
 EXPOSE 5000
+EXPOSE 3000
 
 # CMD to run serve and node server.js concurrently
 CMD ["sh", "-c", "serve -s build & node server.js"]

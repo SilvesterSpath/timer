@@ -24,3 +24,6 @@ https://toastmaster2-v1-0.onrender.com/#!
 
 
 for a successfull run of this image it is necessary to first serve the build folder and then run the server.js file
+
+this got me result:
+https://toastmaster2-v2-0.onrender.com/techs
