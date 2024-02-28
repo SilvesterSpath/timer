@@ -21,3 +21,6 @@ After modifying the docker container file and restart the container, the change 
 
 here is the working url:
 https://toastmaster2-v1-0.onrender.com/#!
+
+
+for a successfull run of this image it is necessary to first serve the build folder and then run the server.js file

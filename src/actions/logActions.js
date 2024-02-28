@@ -14,7 +14,7 @@ import {
 //   return async dispatch => {
 //     setLoading();
 
-//     const res = await fetch('/logs');
+//     const res = await fetch('https://toastmaster2-v2-0.onrender.com/logs');
 //     const data = await res.json();
 
 //     dispatch({
@@ -29,7 +29,7 @@ export const getLogs = () => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch('/logs');
+    const res = await fetch('https://toastmaster2-v2-0.onrender.com/logs');
     const data = await res.json();
 
     dispatch({
@@ -49,7 +49,7 @@ export const addLog = (log) => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch('/logs', {
+    const res = await fetch('https://toastmaster2-v2-0.onrender.com/logs', {
       method: 'POST',
       body: JSON.stringify(log),
       headers: {
@@ -75,7 +75,7 @@ export const deleteLog = (id) => async (dispatch) => {
   try {
     setLoading();
 
-    await fetch(`/logs/${id}`, {
+    await fetch(`https://toastmaster2-v2-0.onrender.com/logs/${id}`, {
       method: 'DELETE',
     });
 
@@ -96,13 +96,16 @@ export const updateLog = (log) => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch(`/logs/${log.id}`, {
-      method: 'PUT',
-      body: JSON.stringify(log),
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
+    const res = await fetch(
+      `https://toastmaster2-v2-0.onrender.com/logs/${log.id}`,
+      {
+        method: 'PUT',
+        body: JSON.stringify(log),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }
+    );
 
     const data = await res.json();
 
@@ -123,7 +126,9 @@ export const searchLogs = (text) => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch(`/logs?q=${text}`);
+    const res = await fetch(
+      `https://toastmaster2-v2-0.onrender.com/logs?q=${text}`
+    );
     const data = await res.json();
 
     dispatch({

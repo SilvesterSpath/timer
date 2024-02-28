@@ -15,7 +15,7 @@ const middleware = json.defaults({
 });
 
 const corsOptions = {
-  origin: '*',
+  origin: 'https://toastmaster2-v2-0.onrender.com',
   credentials: true,
 };
 
@@ -23,7 +23,7 @@ server.use(cors(corsOptions));
 server.use(middleware);
 server.use(router); // <-- Mount router
 
-const PORT = process.env.JSON_PORT || 5001;
+const PORT = process.env.JSON_PORT || 5000;
 
 server.listen(PORT, () => {
   console.log(`JSON Server is running on port ${PORT}`);
