@@ -19,9 +19,16 @@ export const getTechs = () => async (dispatch) => {
       payload: data,
     });
   } catch (err) {
+    let errorMessage = 'An error occurred';
+    if (err.response && err.response.statusText) {
+      errorMessage = err.response.statusText;
+    } else if (err.message) {
+      errorMessage = err.message;
+    }
+
     dispatch({
       type: TECHS_ERROR,
-      payload: err.response.statusText,
+      payload: errorMessage,
     });
   }
 };

@@ -63,9 +63,16 @@ export const addLog = (log) => async (dispatch) => {
       payload: data,
     });
   } catch (err) {
+    let errorMessage = 'An error occurred';
+    if (err.response && err.response.statusText) {
+      errorMessage = err.response.statusText;
+    } else if (err.message) {
+      errorMessage = err.message;
+    }
+
     dispatch({
       type: LOGS_ERROR,
-      payload: err.response.statusText,
+      payload: errorMessage,
     });
   }
 };
